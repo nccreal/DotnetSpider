@@ -2,22 +2,14 @@
 
 免责申明：本框架是为了帮助开发人员简化开发流程、提高开发效率，请勿使用此框架做任何违法国家法律的事情，使用者所做任何事情也与本框架的作者无关。
 
-[![Build Status](https://dev.azure.com/zlzforever/DotnetSpider/_apis/build/status/dotnetcore.DotnetSpider?branchName=master)](https://dev.azure.com/zlzforever/DotnetSpider/_build/latest?definitionId=3&branchName=master)
 [![NuGet](https://img.shields.io/nuget/vpre/DotnetSpider.svg)](https://www.nuget.org/packages/DotnetSpider)
-[![Member project of .NET Core Community](https://img.shields.io/badge/member%20project%20of-NCC-9e20c9.svg)](https://github.com/dotnetcore)
 [![GitHub license](https://img.shields.io/github/license/dotnetcore/DotnetSpider.svg)](https://github.com/dotnetcore/DotnetSpider/blob/master/LICENSE.txt)
 
 DotnetSpider, a .NET Standard web crawling library. It is lightweight, efficient and fast high-level web crawling & scraping framework.
 
-If you want get latest beta packages, you should add the myget feed:
-
-```
-<add key="myget.org" value="https://www.myget.org/F/zlzforever/api/v3/index.json" protocolVersion="3" />
-```
-
 ### DESIGN
 
-![DESIGN IMAGE](https://github.com/dotnetcore/DotnetSpider/blob/master/images/%E6%95%B0%E6%8D%AE%E9%87%87%E9%9B%86%E7%B3%BB%E7%BB%9F.png?raw=true)
+![DESIGN IMAGE](https://github.com/nccreal/DotnetSpider/blob/master/images/%E6%95%B0%E6%8D%AE%E9%87%87%E9%9B%86%E7%B3%BB%E7%BB%9F.png?raw=true)
 
 ### DEVELOP ENVIROMENT
 
@@ -58,9 +50,6 @@ If you want get latest beta packages, you should add the myget feed:
 
         docker run -d --restart always --name hbase -p 20550:8080 -p 8085:8085 -p 9090:9090 -p 9095:9095 -p 16010:16010 dajobe/hbase
 
-### MORE DOCUMENTS
-
-https://github.com/dotnetcore/DotnetSpider/wiki
 
 ### SAMPLES
 
@@ -68,11 +57,11 @@ https://github.com/dotnetcore/DotnetSpider/wiki
 
 ### BASE USAGE
 
-[Base usage Codes](https://github.com/zlzforever/DotnetSpider/blob/master/src/DotnetSpider.Sample/samples/BaseUsage.cs)
+[Base usage Codes](https://github.com/nccreal/DotnetSpider/blob/master/src/DotnetSpider.Sample/samples/BaseUsage.cs)
 
 ### ADDITIONAL USAGE: Configurable Entity Spider
 
-[View complete Codes](https://github.com/zlzforever/DotnetSpider/blob/master/src/DotnetSpider.Sample/samples/EntitySpider.cs)
+[View complete Codes](https://github.com/nccreal/DotnetSpider/blob/master/src/DotnetSpider.Sample/samples/EntitySpider.cs)
 
 		public class EntitySpider : Spider
 		{
@@ -153,7 +142,7 @@ https://github.com/dotnetcore/DotnetSpider/wiki
 #### Distributed spider
 
 
-[Read this document](https://github.com/dotnetcore/DotnetSpider/wiki/3-Distributed-Spider)
+[Read this document](https://github.com/nccreal/DotnetSpider/wiki/3-Distributed-Spider)
 
 #### Puppeteer downloader
 
@@ -193,11 +182,3 @@ Coming soon
  | RabbitMQ.Client  |  Apache 2.0   |
  | Polly  | BSD 3-C   |
 
-### Buy me a coffee
-
-![](https://github.com/zlzforever/ClickHouseMigrator/raw/master/images/alipay.jpeg)
-
-### AREAS FOR IMPROVEMENTS
-
-QQ Group: 477731655
-Email: zlzforever@163.com
